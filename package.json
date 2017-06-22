@@ -1,0 +1,17 @@
+{
+  "name": "babel-preset-env-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-transpiled.js",
+  "scripts": {
+    "build": "babel index.js --out-file index-transpiled.js",
+    "start": "npm run build && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
